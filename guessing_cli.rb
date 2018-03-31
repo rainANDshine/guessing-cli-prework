@@ -9,7 +9,6 @@ def run_guessing_game
       number = rand(1..6)
       if input == number.to_s
         puts "You guessed the correct number!"
-        break
       else
         puts "The computer guessed #{number}."
       end
