@@ -12,6 +12,7 @@ def run_guessing_game
         break
       else
         puts "The computer guessed #{number}."
+        break
       end
     end
   end
