@@ -5,6 +5,6 @@ def run_guessing_game
       puts "Goodbye!"
       break
     else
-      
+      number = rand
     end
 end
