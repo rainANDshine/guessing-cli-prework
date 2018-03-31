@@ -7,6 +7,8 @@ def run_guessing_game
     else
       number = rand(10)
       if input == number
+        You guessed the correct number!
+      else
         
     end
 end
