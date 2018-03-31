@@ -7,7 +7,7 @@ def run_guessing_game
       break
     else
       number = rand(1..6)
-      if input == number
+      if input == number.to_s
         puts "You guessed the correct number!"
         break
       else
